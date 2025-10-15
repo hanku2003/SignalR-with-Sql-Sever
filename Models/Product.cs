@@ -1,4 +1,4 @@
-﻿ namespace SignalR_SQL.Models
+﻿namespace SignalR_SQL.Models
 {
     public class Product
     {
@@ -10,6 +10,7 @@
 
         public string Price { get; set; }
     }
+
     public class ProductForGraph
     {
         public string Category { get; set; }

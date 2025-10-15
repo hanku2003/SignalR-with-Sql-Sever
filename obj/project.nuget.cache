@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VKr1AdZsUsM=",
+  "dgSpecHash": "MrASpO0wak8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\SignalR_SQL.csproj",
+  "projectFilePath": "C:\\Users\\Hung\\Downloads\\Web\\R2024\\SignalR_SQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hung\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Hung\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

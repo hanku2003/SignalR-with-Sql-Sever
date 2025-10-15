@@ -13,6 +13,7 @@ namespace SignalR_SQL.SubscribeTableDependencies
         {
             this.dashboardHub = dashboardHub;
         }
+
         public void SubscribeTableDependency(string connectionString)
         {
             tableDependency = new SqlTableDependency<Sale>(connectionString);
@@ -20,6 +21,7 @@ namespace SignalR_SQL.SubscribeTableDependencies
             tableDependency.OnError += TableDependency_OnError;
             tableDependency.Start();
         }
+
         private void TableDependency_OnChanged(object sender, TableDependency.SqlClient.Base.EventArgs.RecordChangedEventArgs<Sale> e)
         {
             if (e.ChangeType != TableDependency.SqlClient.Base.Enums.ChangeType.None)

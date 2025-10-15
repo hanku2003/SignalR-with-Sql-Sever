@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalR_SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f08e7c636944e4484351b77fa55613ccb4d7f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalR_SQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalR_SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

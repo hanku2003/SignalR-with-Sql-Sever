@@ -16,6 +16,7 @@ namespace SignalR_SQL.Hubs
             saleRepository = new SaleRepository(connectionString);
             customerRepository = new CustomerRepository(connectionString);
         }
+
         public async Task SendProducts()
         {
             var products = productRepository.GetProducts();

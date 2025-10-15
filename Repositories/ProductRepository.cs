@@ -63,6 +63,7 @@ namespace SignalR_SQL.Repositories
                 }
             }
         }
+
         public List<ProductForGraph> GetProductsForGraph()
         {
             List<ProductForGraph> productsForGraph = new List<ProductForGraph>();
@@ -81,6 +82,7 @@ namespace SignalR_SQL.Repositories
             }
             return productsForGraph;
         }
+
         private DataTable GetProductsForGraphFromDb()
         {
             var query = "SELECT Category, COUNT(Id) Products FROM Product GROUP BY Category";

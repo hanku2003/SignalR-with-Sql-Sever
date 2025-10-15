@@ -1,27 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\SignalR_SQL.csproj": {}
+    "C:\\Users\\Hung\\Downloads\\Web\\R2024\\SignalR_SQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\SignalR_SQL.csproj": {
+    "C:\\Users\\Hung\\Downloads\\Web\\R2024\\SignalR_SQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\SignalR_SQL.csproj",
+        "projectUniqueName": "C:\\Users\\Hung\\Downloads\\Web\\R2024\\SignalR_SQL.csproj",
         "projectName": "SignalR_SQL",
-        "projectPath": "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\SignalR_SQL.csproj",
+        "projectPath": "C:\\Users\\Hung\\Downloads\\Web\\R2024\\SignalR_SQL.csproj",
         "packagesPath": "C:\\Users\\Hung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hung\\Downloads\\Web\\SignalR_SQL\\obj\\",
+        "outputPath": "C:\\Users\\Hung\\Downloads\\Web\\R2024\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Hung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +42,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

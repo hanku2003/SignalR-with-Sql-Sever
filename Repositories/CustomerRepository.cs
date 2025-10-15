@@ -63,6 +63,7 @@ namespace SignalR_SQL.Repositories
                 }
             }
         }
+
         public List<CustomerForGraph> GetCustomersForGraph()
         {
             List<CustomerForGraph> customersForGraph = new List<CustomerForGraph>();

@@ -7,6 +7,7 @@
         public string Gender { get; set; }
         public string Mobile { get; set; }
     }
+
     public class CustomerForGraph
     {
         public string Gender { get; set; }
